@@ -18,6 +18,13 @@ body{
     background-color: var(--white);
     border-radius: 15px;
     padding: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.blog-preview-card:hover{
+    box-shadow: 8px 8px black;
+    cursor: pointer;
+  
 }
 
 .blog-preview-card .image img{
@@ -53,13 +60,26 @@ body{
 
 .paragraph{
     font-size: 13px;
-    line-height: 1.5;
+    line-height: 1.6;
     font-weight: bold;
     color: var(--gray-500)
 }
 
+.name{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    margin-top: 20px;   
+}
 
+.name img{
+    width: 30px;
+    height: 30px;
+}
 
-
-
-/* .attribution { font-size: 11px; text-align: center; }*/
+#person{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
