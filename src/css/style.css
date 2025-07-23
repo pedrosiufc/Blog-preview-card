@@ -9,7 +9,7 @@ body{
     background-color: var(--yellow);
 }
 
-.blog-preview-card{
+.container-person-public{
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -21,13 +21,13 @@ body{
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.blog-preview-card:hover{
+.container-person-public:hover{
     box-shadow: 8px 8px black;
     cursor: pointer;
   
 }
 
-.blog-preview-card .image img{
+.container-person-public .image img{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 20px;    
@@ -42,15 +42,20 @@ body{
     border-radius: 5px;    
 }
 
-.info-public{
+.published{
     margin-top: 20px;
+}
+
+
+.publication-info{
     font-size: 11px;
     font-weight: bold;
-    color: var( --gray-950);    
+    color: var( --gray-950); 
+       
 }
 
 .informations{
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .informations h1{
@@ -65,14 +70,14 @@ body{
     color: var(--gray-500)
 }
 
-.name{
+.photo-name{
     display: flex;
     flex-direction: row;
     align-items: center; 
     margin-top: 20px;   
 }
 
-.name img{
+.photo-name img{
     width: 30px;
     height: 30px;
 }
