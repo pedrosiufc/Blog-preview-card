@@ -22,7 +22,44 @@ body{
 
 .blog-preview-card .image img{
     width: 100%;
-    border-radius: 15px;
-    
+    border-radius: 10px;
+    margin-bottom: 20px;    
 }
+
+ #learn{
+    padding: 5px 10px;
+    background-color: var(--yellow);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 5px;    
+}
+
+.info-public{
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    color: var( --gray-950);    
+}
+
+.informations{
+    margin-top: 10px;
+}
+
+.informations h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.paragraph{
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: bold;
+    color: var(--gray-500)
+}
+
+
+
+
+
 /* .attribution { font-size: 11px; text-align: center; }*/
