@@ -22,6 +22,7 @@ body{
 
 .blog-preview-card .image img{
     width: 100%;
+    border-radius: 15px;
     
 }
 /* .attribution { font-size: 11px; text-align: center; }*/
